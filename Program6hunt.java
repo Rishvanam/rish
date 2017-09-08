@@ -18,7 +18,11 @@ for(i=0;i<a1.length;i++)
 for(j=i+1;j<a1.length;j++)
 {
 if(a1[i]==a1[j])
-String s=s+valueOf(a1[i]);}}
+{
+s=s+String.valueOf(a1[i])+" ";
+}
+}
+}
 System.out.print(s.charAt(0));
 }
 }
