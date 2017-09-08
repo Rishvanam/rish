@@ -12,7 +12,7 @@ for(i=0;i<a.length;i++)
 {
 a[i]=scan.nextInt();
 }
-Array.sort(a);
+Arrays.sort(a);
 for(i=0;i<a.length;i++)
 if(a[i]==i)
 System.out.print(a[i]);
