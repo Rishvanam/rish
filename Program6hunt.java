@@ -4,9 +4,11 @@ public class Program6hunt
 {
 public static void main(String args[])
 {
+  int i,j;
 Scanner scan=new Scanner(System.in);
 int a=scan.nextInt();
 int a1[]=new int[a];
+String s="";
 for(i=0;i<a1.length;i++)
 {
 a1[i]=scan.nextInt();
